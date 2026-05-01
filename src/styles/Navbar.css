@@ -1,0 +1,108 @@
+/* Navbar.css */
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00a5ec;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.menu-item .offer {
+  color: red;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.right-section {
+  display: flex;
+  gap: 10px;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.register-btn {
+  background-color: #00a5ec;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Mega Menu */
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 600px;
+  background-color: #ffffff;
+  display: flex;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  gap: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  z-index: 999;
+}
+
+.mega-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mega-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mega-link.active {
+  font-weight: bold;
+}
+
+.new {
+  background-color: red;
+  color: white;
+  padding: 2px 4px;
+  font-size: 10px;
+  border-radius: 3px;
+}
+
+.view-all {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #00a5ec;
+  cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.search-input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn {
+  background-color: #00A5EC;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer Intern",
+    "company": "Tech Solutions Pvt Ltd",
+    "location": "Chennai",
+    "stipend": "₹8,000/month"
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer Intern",
+    "company": "CodeCraft",
+    "location": "Bangalore",
+    "stipend": "₹10,000/month"
+  },
+  {
+    "id": 3,
+    "title": "Data Analyst Intern",
+    "company": "Data Minds",
+    "location": "Remote",
+    "stipend": "₹12,000/month"
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer Intern",
+    "company": "Startup Hub",
+    "location": "Chennai",
+    "stipend": "₹15,000/month"
+  }
+]

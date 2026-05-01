@@ -1,0 +1,67 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.internship-section {
+  padding: 60px 0;
+  background-color: #f9fafb;
+}
+
+.section-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.internship-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.internship-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.internship-card:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.company-name {
+  font-size: 14px;
+  color: #666;
+}
+
+.job-title {
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+}
+
+.details {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.card-right {
+  min-width: 120px;
+}
+.apply-btn {
+  background-color: #00A5EC;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}

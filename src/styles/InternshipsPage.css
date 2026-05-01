@@ -1,0 +1,47 @@
+.internships-page {
+  display: flex;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.filters {
+  width: 250px;
+  background: white;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.filters h3 {
+  margin-bottom: 15px;
+}
+
+.filters label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.internship-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.internship-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.internship-card h3 {
+  margin: 5px 0;
+}
+.internship-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
